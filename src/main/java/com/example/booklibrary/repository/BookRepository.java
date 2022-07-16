@@ -1,6 +1,5 @@
 package com.example.booklibrary.repository;
-
-import java.awt.print.Book;
+import com.example.booklibrary.model.Book;
 import java.util.*;
 
 public class BookRepository {
@@ -16,7 +15,7 @@ public class BookRepository {
         return bookOptional;
     }
 
-    public Book addBook(String isbn, Book newBook) {
+    (public Book addBook(String isbn, Book newBook)) {
         books.put(isbn, newBook);
         return newBook;
     }
