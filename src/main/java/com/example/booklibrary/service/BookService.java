@@ -2,10 +2,13 @@ package com.example.booklibrary.service;
 
 import com.example.booklibrary.repository.BookRepository;
 import com.example.booklibrary.model.Book;
+import org.springframework.stereotype.Service;
+
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Optional;
 
+@Service
 public class BookService {
 
     BookRepository bookRepository;
